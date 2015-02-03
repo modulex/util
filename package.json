@@ -1,6 +1,6 @@
 {
   "name": "modulex-util",
-  "version": "1.1.6",
+  "version": "1.1.7",
   "author": "yiminghe <yiminghe@gmail.com>",
   "engines": {
     "node": ">=0.10"
@@ -8,7 +8,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "http://github.com/kissyteam/util.git"
+    "url": "http://github.com/modulex/util.git"
   },
   "devDependencies": {
     "expect.js": "^0.3.1",
