@@ -9,9 +9,6 @@ var src = path.resolve(process.cwd(), 'lib');
 var build = path.resolve(process.cwd(), 'build');
 var clean = require('gulp-clean');
 var uglify = require('gulp-uglify');
-var jshint = require('gulp-jshint');
-var stylish = require('jshint-stylish');
-var jscs = require('gulp-jscs');
 var replace = require('gulp-replace');
 var wrapper = require('gulp-wrapper');
 var date = new Date();
@@ -27,7 +24,7 @@ gulp.task('clean', function () {
     }).pipe(clean());
 });
 
-gulp.task('build', ['lint'], function () {
+gulp.task('build', function () {
     return gulp.src('./lib/util.js')
         .pipe(modulex({
             modulex: {
