@@ -4,7 +4,6 @@
 common utilities
 
 [![NPM version][npm-image]][npm-url]
-[![Bower version][bower-image]][bower-url]
 [![SPM version](http://spmjs.io/badge/modulex-util)](http://spmjs.io/package/modulex-util)
 [![build status][travis-image]][travis-url]
 [![Test coverage][coveralls-image]][coveralls-url]
@@ -18,14 +17,12 @@ common utilities
 
 [npm-image]: http://img.shields.io/npm/v/modulex-util.svg?style=flat-square
 [npm-url]: http://npmjs.org/package/modulex-util
-[bower-image]: http://img.shields.io/bower/v/modulex-util.svg?style=flat-square
-[bower-url]: https://github.com/kissyteam/util
-[travis-image]: https://img.shields.io/travis/kissyteam/util.svg?style=flat-square
-[travis-url]: https://travis-ci.org/kissyteam/util
-[coveralls-image]: https://img.shields.io/coveralls/kissyteam/util.svg?style=flat-square
-[coveralls-url]: https://coveralls.io/r/kissyteam/util?branch=master
-[gemnasium-image]: http://img.shields.io/gemnasium/kissyteam/util.svg?style=flat-square
-[gemnasium-url]: https://gemnasium.com/kissyteam/util
+[travis-image]: https://img.shields.io/travis/modulex/util.svg?style=flat-square
+[travis-url]: https://travis-ci.org/modulex/util
+[coveralls-image]: https://img.shields.io/coveralls/modulex/util.svg?style=flat-square
+[coveralls-url]: https://coveralls.io/r/modulex/util?branch=master
+[gemnasium-image]: http://img.shields.io/gemnasium/modulex/util.svg?style=flat-square
+[gemnasium-url]: https://gemnasium.com/modulex/util
 [node-image]: https://img.shields.io/badge/node.js-%3E=_0.10-green.svg?style=flat-square
 [node-url]: http://nodejs.org/download/
 [download-image]: https://img.shields.io/npm/dm/modulex-util.svg?style=flat-square
@@ -48,7 +45,7 @@ console.log(xutil.clone([1,2]));
 
 ## changelog
 
-https://github.com/kissyteam/util/milestones
+https://github.com/modulex/util/milestones
 
 ## contribute
 
