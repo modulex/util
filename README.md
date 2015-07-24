@@ -4,7 +4,6 @@
 common utilities
 
 [![NPM version][npm-image]][npm-url]
-[![SPM version](http://spmjs.io/badge/modulex-util)](http://spmjs.io/package/modulex-util)
 [![build status][travis-image]][travis-url]
 [![Test coverage][coveralls-image]][coveralls-url]
 [![gemnasium deps][gemnasium-image]][gemnasium-url]
