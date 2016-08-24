@@ -1,11 +1,17 @@
 {
   "name": "modulex-util",
-  "version": "1.1.9",
+  "version": "1.1.10",
   "description": "common utilities from modulex",
   "author": "yiminghe <yiminghe@gmail.com>",
   "engines": {
     "node": ">=0.10"
   },
+  "files": [
+    "lib",
+    "build",
+    "meta"
+  ],
+  "main": "lib/util",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -31,7 +37,6 @@
     "rc-server": "^1.4.3",
     "rc-tools": "^1.1.5"
   },
-  "spm": {},
   "precommit": [
     "lint"
   ],
